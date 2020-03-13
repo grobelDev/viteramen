@@ -87,11 +87,14 @@ export function Hero() {
                     placeholder='Enter your email'
                   /> */}
                   <div class='mt-3 rounded-md shadow sm:mt-0 sm:flex-shrink-0'>
-                    <button class='w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out'>
-                      <a href='https://www.kickstarter.com/projects/vitekitchenstom/vite-ramen-x-fly-by-jing-a-complete-spicy-meal-in-3-minutes'>
-                        SHOP SPICY NOODS!
-                      </a>
-                    </button>
+                    {/* <button class='w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out'> */}
+                    <a
+                      class='w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out'
+                      href='https://www.kickstarter.com/projects/vitekitchenstom/vite-ramen-x-fly-by-jing-a-complete-spicy-meal-in-3-minutes'
+                    >
+                      SHOP SPICY NOODS!
+                    </a>
+                    {/* </button> */}
                   </div>
                   {/* <a
                     href='https://www.kickstarter.com/projects/vitekitchenstom/vite-ramen-x-fly-by-jing-a-complete-spicy-meal-in-3-minutes'
