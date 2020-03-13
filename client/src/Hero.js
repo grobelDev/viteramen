@@ -534,7 +534,7 @@ export function Hero3({ scrollToRef, refProp }) {
                     Shop Now
                   </a>
                 </div>
-                <div class='rounded-md shadow'>
+                <div class=''>
                   <div
                     class='mt-3 sm:mt-0 sm:ml-3'
                     onClick={() => scrollToRef(refProp)}
