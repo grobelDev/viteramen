@@ -9,17 +9,19 @@ export default function Navbar() {
           <div class='flex justify-between h-16'>
             <div class='flex'>
               <div class='flex-shrink-0 flex items-center'>
-                <img
-                  class='js lazyautosizes lazyloaded'
-                  src='//cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_300x300.png?v=1538232151'
-                  data-widths='[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]'
-                  data-aspectratio='4.716981132075472'
-                  data-sizes='auto'
-                  alt='Vite Ramen'
-                  data-srcset='//cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_180x.png?v=1538232151 180w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_360x.png?v=1538232151 360w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_540x.png?v=1538232151 540w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_720x.png?v=1538232151 720w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_900x.png?v=1538232151 900w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1080x.png?v=1538232151 1080w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1296x.png?v=1538232151 1296w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1512x.png?v=1538232151 1512w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1728x.png?v=1538232151 1728w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_2048x.png?v=1538232151 2048w'
-                  sizes='165px'
-                  srcset='//cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_180x.png?v=1538232151 180w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_360x.png?v=1538232151 360w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_540x.png?v=1538232151 540w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_720x.png?v=1538232151 720w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_900x.png?v=1538232151 900w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1080x.png?v=1538232151 1080w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1296x.png?v=1538232151 1296w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1512x.png?v=1538232151 1512w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1728x.png?v=1538232151 1728w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_2048x.png?v=1538232151 2048w'
-                ></img>
+                <a href='/'>
+                  <img
+                    class='js lazyautosizes lazyloaded'
+                    src='//cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_300x300.png?v=1538232151'
+                    data-widths='[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]'
+                    data-aspectratio='4.716981132075472'
+                    data-sizes='auto'
+                    alt='Vite Ramen'
+                    data-srcset='//cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_180x.png?v=1538232151 180w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_360x.png?v=1538232151 360w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_540x.png?v=1538232151 540w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_720x.png?v=1538232151 720w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_900x.png?v=1538232151 900w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1080x.png?v=1538232151 1080w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1296x.png?v=1538232151 1296w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1512x.png?v=1538232151 1512w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1728x.png?v=1538232151 1728w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_2048x.png?v=1538232151 2048w'
+                    sizes='165px'
+                    srcset='//cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_180x.png?v=1538232151 180w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_360x.png?v=1538232151 360w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_540x.png?v=1538232151 540w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_720x.png?v=1538232151 720w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_900x.png?v=1538232151 900w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1080x.png?v=1538232151 1080w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1296x.png?v=1538232151 1296w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1512x.png?v=1538232151 1512w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1728x.png?v=1538232151 1728w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_2048x.png?v=1538232151 2048w'
+                  ></img>
+                </a>
               </div>
               <div class='ml-6 flex'>
                 <a
