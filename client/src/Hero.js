@@ -62,7 +62,7 @@ export function Hero() {
           <div class='lg:grid lg:grid-cols-12 lg:gap-8'>
             <div class='sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left'>
               <div class='text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base'>
-                Coming soon
+                A NEW CHALLENGER
               </div>
               <h2 class='mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-5xl lg:text-5xl xl:text-5xl'>
                 Psst. In the mood for something a little more...
@@ -86,7 +86,7 @@ export function Hero() {
                     class='appearance-none block w-full px-3 py-3 border border-gray-300 text-base leading-6 rounded-md placeholder-gray-500 shadow-sm focus:outline-none focus:placeholder-gray-400 focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out sm:flex-1'
                     placeholder='Enter your email'
                   /> */}
-                  <div class='mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0'>
+                  <div class='mt-3 rounded-md shadow sm:mt-0 sm:flex-shrink-0'>
                     <button class='w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out'>
                       <a href='https://www.kickstarter.com/projects/vitekitchenstom/vite-ramen-x-fly-by-jing-a-complete-spicy-meal-in-3-minutes'>
                         SHOP SPICY NOODS!

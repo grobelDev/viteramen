@@ -8,7 +8,7 @@ export default function FeatureSection({ refProp }) {
           <p class='text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase'>
             Nutrition
           </p>
-          <h3 class='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10'>
+          <h3 class='mt-2 text-3xl leading-8 font-extrabold tracking-normal text-gray-900 sm:text-4xl sm:leading-10'>
             Nutritionally Complete
           </h3>
           <p class='mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto'>
