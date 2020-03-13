@@ -157,7 +157,10 @@ export function Hero() {
                 />
               </svg>
               <div class='relative mx-auto w-full rounded-lg shadow-lg lg:max-w-lg'>
-                <button class='relative block w-full rounded-lg overflow-hidden focus:outline-none focus:shadow-outline'>
+                <a
+                  href='https://www.kickstarter.com/projects/vitekitchenstom/vite-ramen-x-fly-by-jing-a-complete-spicy-meal-in-3-minutes'
+                  class='relative block w-full rounded-lg overflow-hidden focus:outline-none focus:shadow-outline'
+                >
                   <img
                     class='w-full'
                     src='https://ksr-ugc.imgix.net/assets/028/082/981/5d4d08b167b49fe3c5a1f60d1b4bff9c_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1581632439&auto=format&gif-q=50&q=92&s=d643f6453fb5d351a7000cbceb977150'
@@ -180,7 +183,7 @@ export function Hero() {
                       <path d='M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z' />
                     </svg>
                   </div> */}
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -539,9 +542,9 @@ export function Hero3({ scrollToRef, refProp }) {
                     class='mt-3 sm:mt-0 sm:ml-3'
                     onClick={() => scrollToRef(refProp)}
                   >
-                    <div class='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10'>
+                    <button class='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10'>
                       Nutrition Facts
-                    </div>
+                    </button>
                   </div>
                 </div>
               </div>

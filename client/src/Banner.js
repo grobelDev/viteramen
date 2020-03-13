@@ -24,7 +24,7 @@ export default function Banner() {
             <div class='absolute inset-y-0 right-0 pt-1 pr-1 flex items-start sm:pt-1 sm:pr-2 sm:items-start'>
               <button
                 type='button'
-                class='flex p-2 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 transition ease-in-out duration-150'
+                class='flex p-2 rounded-md hover:bg-orange-700 focus:outline-none focus:bg-blue-500 transition ease-in-out duration-150'
                 onClick={() => setShow(false)}
               >
                 <svg
