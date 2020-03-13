@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+
+import Banner from './Banner';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import FeatureSection from './FeatureSection';
 
 export default function App() {
   return (
-    <div className='text-4xl font-bold text-center text-blue-500'>
-      Hello World
-    </div>
+    <Fragment>
+      <Banner></Banner>
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <FeatureSection></FeatureSection>
+    </Fragment>
   );
 }
