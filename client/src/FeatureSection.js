@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
-export default function FeatureSection() {
+export default function FeatureSection({ refProp }) {
   return (
-    <div class='py-12 bg-white'>
+    <div ref={refProp} class='py-12 bg-white'>
       <div class='max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div class='lg:text-center'>
           <p class='text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase'>

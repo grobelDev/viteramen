@@ -1,13 +1,10 @@
 import React from 'react';
-// import styled from 'styled-components';
-
+import styled from 'styled-components';
+//cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_180x.png?v=1538232151 180w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_360x.png?v=1538232151 360w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_540x.png?v=1538232151 540w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_720x.png?v=1538232151 720w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_900x.png?v=1538232151 900w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1080x.png?v=1538232151 1080w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1296x.png?v=1538232151 1296w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1512x.png?v=1538232151 1512w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1728x.png?v=1538232151 1728w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_2048x.png?v=1538232151 2048w
 export default function Navbar() {
-  //   let viteRamenLogo =
-  //     'https://images.squarespace-cdn.com/content/5d94fef0e57130625924f223/1570045705371-LP5TQ60RWUU5DOQ9MIO6/Horizontal-Logo-White-500.png?content-type=image%2Fpng';
-
   return (
-    <div>
-      <nav class='bg-white shadow border-b'>
+    <StickyDiv className='z-50'>
+      <nav className='top-0 bg-white border-b shadow'>
         <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div class='flex justify-between h-16'>
             <div class='flex'>
@@ -24,25 +21,25 @@ export default function Navbar() {
                   srcset='//cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_180x.png?v=1538232151 180w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_360x.png?v=1538232151 360w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_540x.png?v=1538232151 540w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_720x.png?v=1538232151 720w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_900x.png?v=1538232151 900w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1080x.png?v=1538232151 1080w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1296x.png?v=1538232151 1296w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1512x.png?v=1538232151 1512w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_1728x.png?v=1538232151 1728w, //cdn.shopify.com/s/files/1/0053/8928/7513/files/Horizontal-500_2048x.png?v=1538232151 2048w'
                 ></img>
               </div>
-              <div class='hidden sm:ml-6 sm:flex'>
+              <div class='ml-6 flex'>
                 <a
-                  href='/'
+                  href='https://shop.viteramen.com/'
                   class='inline-flex items-center px-1 pt-1 border-b-2 border-indigo-500 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out'
                 >
                   Shop
                 </a>
                 <a
-                  href='/'
+                  href='https://www.viteramen.com/nutrition-folder'
                   class='ml-8 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out'
                 >
                   Nutrition
                 </a>
-                <a
-                  href='/'
+                {/* <a
+                  href='https://www.viteramen.com/about-us-1'
                   class='ml-8 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out'
                 >
                   About Us
-                </a>
+                </a> */}
                 {/* <a
                   href='/'
                   class='ml-8 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out'
@@ -51,9 +48,9 @@ export default function Navbar() {
                 </a> */}
               </div>
             </div>
-            <div class='hidden sm:ml-6 sm:flex sm:items-center'>
-              {/* Put icons here to go on the right side */}
-              {/* <button class='p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-gray-500 focus:outline-none focus:text-gray-500 focus:bg-gray-100 transition duration-150 ease-in-out'>
+            {/* <div class='hidden sm:ml-6 sm:flex sm:items-center'> */}
+            {/* Put icons here to go on the right side */}
+            {/* <button class='p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-gray-500 focus:outline-none focus:text-gray-500 focus:bg-gray-100 transition duration-150 ease-in-out'>
                 <svg
                   class='h-6 w-6'
                   stroke='currentColor'
@@ -68,7 +65,7 @@ export default function Navbar() {
                   />
                 </svg>
               </button> */}
-              {/* <div class='ml-3 relative' x-data='{ open: false }'>
+            {/* <div class='ml-3 relative' x-data='{ open: false }'>
                 <div>
                   <button class='flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-gray-300 transition duration-150 ease-in-out'>
                     <img
@@ -79,8 +76,8 @@ export default function Navbar() {
                   </button>
                 </div>
               </div> */}
-            </div>
-            <div class='-mr-2 flex items-center sm:hidden'>
+            {/* </div> */}
+            {/* <div class='-mr-2 flex items-center sm:hidden'>
               <button class='inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out'>
                 <svg
                   class='h-6 w-6'
@@ -104,7 +101,7 @@ export default function Navbar() {
                   />
                 </svg>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div class='hidden sm:hidden'>
@@ -155,6 +152,12 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-    </div>
+    </StickyDiv>
   );
 }
+
+const StickyDiv = styled.div`
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0; /* required */
+`;
